@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sentiment Analyzer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1B2430;
+    --ink-soft: #5B6472;
+    --paper: #FAF9F6;
+    --card: #FFFFFF;
+    --line: #E4E1D8;
+    --indigo: #33508F;
+    --indigo-dark: #223a6b;
+    --positive: #2F7A52;
+    --positive-bg: #E7F2EA;
+    --negative: #B23A32;
+    --negative-bg: #FBEAE8;
+    --neutral: #A8791E;
+    --neutral-bg: #FBF1DF;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--indigo);
+    margin: 0 0 10px;
+  }
+
+  h1 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    margin: 0 0 10px;
+  }
+
+  .sub {
+    font-size: 15px;
+    color: var(--ink-soft);
+    margin: 0 0 36px;
+    line-height: 1.5;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 28px;
+  }
+
+  label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    margin-bottom: 8px;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    resize: vertical;
+  }
+
+  textarea:focus {
+    outline: none;
+    border-color: var(--indigo);
+    box-shadow: 0 0 0 3px rgba(51, 80, 143, 0.12);
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  .char-count {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+  }
+
+  button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    background: var(--indigo);
+    border: none;
+    padding: 11px 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+
+  button:hover { background: var(--indigo-dark); }
+  button:disabled { background: #B7BEC9; cursor: not-allowed; }
+
+  .examples {
+    margin-top: 18px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .example-chip {
+    font-size: 12px;
+    color: var(--ink-soft);
+    background: transparent;
+    border: 1px solid var(--line);
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .example-chip:hover {
+    border-color: var(--indigo);
+    color: var(--indigo);
+  }
+
+  .error {
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--negative);
+    display: none;
+  }
+
+  .error.visible { display: block; }
+
+  .result {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    display: none;
+  }
+
+  .result.visible { display: block; }
+
+  .result-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .model-result {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px;
+  }
+
+  .model-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    margin: 0 0 12px;
+  }
+
+  .verdict {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+  }
+
+  .verdict.positive { color: var(--positive); }
+  .verdict.negative { color: var(--negative); }
+  .verdict.neutral { color: var(--neutral); }
+
+  .gauge-label {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    margin-bottom: 6px;
+  }
+
+  .gauge {
+    position: relative;
+    height: 6px;
+    background: #EEECE4;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .gauge-fill {
+    height: 100%;
+    border-radius: 3px;
+    width: 0%;
+    transition: width 0.5s ease;
+  }
+
+  .gauge-fill.positive { background: var(--positive); }
+  .gauge-fill.negative { background: var(--negative); }
+  .gauge-fill.neutral { background: var(--neutral); }
+
+  @media (max-width: 480px) {
+    .result-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="eyebrow">Sentiment analysis · capstone build</p>
+    <h1>What is this review really saying?</h1>
+    <p class="sub">Paste a product review below. It runs through two trained models — a classical TF-IDF model and an RNN — so you can see how they compare on the same input.</p>
+
+    <div class="card">
+      <label for="review-input">Review text</label>
+      <textarea id="review-input" placeholder="e.g. Shipping was fast but the fabric feels cheap for the price."></textarea>
+
+      <div class="row">
+        <span class="char-count" id="char-count">0 characters</span>
+        <button id="analyze-btn">Analyze sentiment</button>
+      </div>
+
+      <div class="examples">
+        <button class="example-chip" data-text="Absolutely love this dress, fits perfectly and arrived early.">try a positive example</button>
+        <button class="example-chip" data-text="Fabric felt cheap and it started falling apart after one wash.">try a negative example</button>
+        <button class="example-chip" data-text="It's fine, does the job, nothing more, nothing less.">try a neutral example</button>
+      </div>
+
+      <p class="error" id="error-msg">Couldn't reach the model. Check that the API is running.</p>
+
+      <div class="result" id="result">
+        <div class="result-grid">
+          <div class="model-result">
+            <p class="model-label">Classical model</p>
+            <p class="verdict" id="classical-verdict">—</p>
+            <div class="gauge-label">
+              <span>confidence</span>
+              <span id="classical-confidence">0%</span>
+            </div>
+            <div class="gauge">
+              <div class="gauge-fill" id="classical-gauge"></div>
+            </div>
+          </div>
+          <div class="model-result">
+            <p class="model-label">RNN model</p>
+            <p class="verdict" id="rnn-verdict">—</p>
+            <div class="gauge-label">
+              <span>confidence</span>
+              <span id="rnn-confidence">0%</span>
+            </div>
+            <div class="gauge">
+              <div class="gauge-fill" id="rnn-gauge"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const input = document.getElementById('review-input');
+    const charCount = document.getElementById('char-count');
+    const btn = document.getElementById('analyze-btn');
+    const result = document.getElementById('result');
+    const errorMsg = document.getElementById('error-msg');
+
+    input.addEventListener('input', () => {
+      charCount.textContent = `${input.value.length} characters`;
+    });
+
+    document.querySelectorAll('.example-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        input.value = chip.dataset.text;
+        charCount.textContent = `${input.value.length} characters`;
+        input.focus();
+      });
+    });
+
+    function renderModelResult(prefix, sentiment, confidence) {
+      const pct = Math.round(confidence * 100);
+      const verdictEl = document.getElementById(`${prefix}-verdict`);
+      const gaugeEl = document.getElementById(`${prefix}-gauge`);
+      const confEl = document.getElementById(`${prefix}-confidence`);
+
+      verdictEl.textContent = sentiment;
+      verdictEl.className = `verdict ${sentiment}`;
+      gaugeEl.style.width = `${pct}%`;
+      gaugeEl.className = `gauge-fill ${sentiment}`;
+      confEl.textContent = `${pct}%`;
+    }
+
+    async function analyze() {
+      const text = input.value.trim();
+      if (!text) return;
+
+      btn.disabled = true;
+      btn.textContent = 'Analyzing…';
+      errorMsg.classList.remove('visible');
+      result.classList.remove('visible');
+
+      try {
+        const res = await fetch('/predict', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ review_text: text }),
+        });
+
+        if (!res.ok) throw new Error('Request failed');
+
+        const data = await res.json();
+        renderModelResult('classical', data.classical.sentiment.toLowerCase(), data.classical.confidence);
+        renderModelResult('rnn', data.rnn.sentiment.toLowerCase(), data.rnn.confidence);
+
+        result.classList.add('visible');
+      } catch (err) {
+        errorMsg.classList.add('visible');
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Analyze sentiment';
+      }
+    }
+
+    btn.addEventListener('click', analyze);
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && e.metaKey) analyze();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+# core
+pandas
+numpy
+scikit-learn
+scipy
+
+# eda / visualization
+matplotlib
+seaborn
+
+# nlp
+nltk
+
+# deep learning
+# pinned exact version - train and run predict/serve using this SAME version,
+# in the SAME virtual environment. mixing tensorflow versions between training
+# and loading a saved model causes "Unrecognized keyword arguments" errors
+tensorflow==2.15.0
+
+# api
+fastapi
+uvicorn[standard]
+pydantic

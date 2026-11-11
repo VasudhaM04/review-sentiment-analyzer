@@ -1,0 +1,201 @@
+Clothing ID,Age,Title,Review Text,Rating,Recommended IND,Positive Feedback Count,Division Name,Department Name,Class Name
+1000,21,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,8,General,Tops,Knits
+1001,63,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,2,Intimates,Intimate,Dresses
+1002,25,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,6,General,Dresses,Sweaters
+1003,65,Terrible,"Arrived with a stain and the stitching was already coming apart, very disappointing.",1,0,13,General,Intimate,Sweaters
+1004,20,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,5,Intimates,Intimate,Blouses
+1005,29,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,6,General Petite,Dresses,Dresses
+1006,26,Meh,"Nothing special, average quality, probably won't order again but it's wearable.",3,0,11,General Petite,Bottoms,Dresses
+1007,54,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,3,General Petite,Dresses,Sweaters
+1008,60,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,11,Intimates,Tops,Dresses
+1009,62,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,7,General Petite,Dresses,Knits
+1010,44,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,8,General Petite,Bottoms,Knits
+1011,42,Comfortable,"Soft material, fits true to size, would recommend for everyday wear.",4,1,6,Intimates,Bottoms,Dresses
+1012,60,Solid basic,"Simple design, good quality for a basic top, fits as expected.",4,1,5,Intimates,Tops,Knits
+1013,44,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,8,Intimates,Tops,Blouses
+1014,34,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,1,General Petite,Intimate,Blouses
+1015,33,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,10,General,Intimate,Pants
+1016,29,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,8,General,Tops,Sweaters
+1017,36,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,13,Intimates,Intimate,Blouses
+1018,28,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,15,General,Dresses,Dresses
+1019,60,Cute but small,"Really cute design but runs very small, had to return it for a bigger size.",3,0,5,Intimates,Intimate,Sweaters
+1020,44,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,12,Intimates,Intimate,Sweaters
+1021,55,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,0,Intimates,Dresses,Sweaters
+1022,61,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,10,General,Bottoms,Pants
+1023,49,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,0,Intimates,Bottoms,Sweaters
+1024,52,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,3,Intimates,Bottoms,Sweaters
+1025,32,Solid basic,"Simple design, good quality for a basic top, fits as expected.",4,1,4,General Petite,Tops,Sweaters
+1026,20,Just okay,"It's fine, the color is slightly different from the photos but wearable.",3,0,10,General Petite,Dresses,Dresses
+1027,39,Comfortable,"Soft material, fits true to size, would recommend for everyday wear.",4,1,7,General,Tops,Sweaters
+1028,25,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,15,General,Tops,Knits
+1029,55,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,5,General Petite,Intimate,Knits
+1030,64,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,6,Intimates,Bottoms,Pants
+1031,48,Comfortable,"Soft material, fits true to size, would recommend for everyday wear.",4,1,14,General,Tops,Knits
+1032,41,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,0,Intimates,Tops,Sweaters
+1033,20,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,2,Intimates,Dresses,Knits
+1034,22,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,10,General,Tops,Blouses
+1035,33,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,4,Intimates,Intimate,Knits
+1036,46,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,6,General,Dresses,Pants
+1037,47,Comfortable,"Soft material, fits true to size, would recommend for everyday wear.",4,1,13,General Petite,Dresses,Dresses
+1038,45,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,10,General,Tops,Knits
+1039,54,Terrible,"Arrived with a stain and the stitching was already coming apart, very disappointing.",1,0,14,General,Intimate,Knits
+1040,49,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,7,General,Intimate,Sweaters
+1041,23,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,0,General,Tops,Knits
+1042,51,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,15,General,Intimate,Dresses
+1043,44,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,0,General Petite,Bottoms,Pants
+1044,47,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,15,General,Tops,Blouses
+1045,23,Terrible,"Arrived with a stain and the stitching was already coming apart, very disappointing.",1,0,1,Intimates,Bottoms,Dresses
+1046,57,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,15,Intimates,Tops,Dresses
+1047,25,Just okay,"It's fine, the color is slightly different from the photos but wearable.",3,0,5,General,Dresses,Knits
+1048,27,Meh,"Nothing special, average quality, probably won't order again but it's wearable.",3,0,7,Intimates,Dresses,Sweaters
+1049,46,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,10,General Petite,Tops,Blouses
+1050,36,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,12,General,Bottoms,Pants
+1051,24,Waste of money,"Fabric is see through and the seams were crooked, returning this immediately.",1,0,0,General Petite,Dresses,Dresses
+1052,33,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,8,General,Bottoms,Dresses
+1053,43,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,9,General,Intimate,Sweaters
+1054,59,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,0,Intimates,Bottoms,Dresses
+1055,36,Cute but small,"Really cute design but runs very small, had to return it for a bigger size.",3,0,3,General,Tops,Blouses
+1056,58,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,6,Intimates,Bottoms,Knits
+1057,52,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,15,General Petite,Dresses,Dresses
+1058,37,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,1,General,Bottoms,Knits
+1059,30,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,14,Intimates,Intimate,Sweaters
+1060,27,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,2,Intimates,Tops,Sweaters
+1061,43,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,4,General Petite,Tops,Dresses
+1062,43,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,1,General Petite,Tops,Knits
+1063,42,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,13,Intimates,Tops,Knits
+1064,31,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,13,General,Tops,Blouses
+1065,62,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,7,General Petite,Tops,Dresses
+1066,22,Meh,"Nothing special, average quality, probably won't order again but it's wearable.",3,0,15,General,Tops,Pants
+1067,39,Comfortable,"Soft material, fits true to size, would recommend for everyday wear.",4,1,7,General,Dresses,Knits
+1068,41,Meh,"Nothing special, average quality, probably won't order again but it's wearable.",3,0,8,General,Bottoms,Blouses
+1069,45,Just okay,"It's fine, the color is slightly different from the photos but wearable.",3,0,10,General,Dresses,Blouses
+1070,57,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,8,General,Dresses,Sweaters
+1071,42,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,10,General Petite,Dresses,Pants
+1072,32,Returned it,"Way too small and the material was scratchy against my skin, not comfortable at all.",2,0,8,General,Intimate,Dresses
+1073,54,Just okay,"It's fine, the color is slightly different from the photos but wearable.",3,0,6,General Petite,Intimate,Dresses
+1074,59,Waste of money,"Fabric is see through and the seams were crooked, returning this immediately.",1,0,10,Intimates,Dresses,Blouses
+1075,39,Just okay,"It's fine, the color is slightly different from the photos but wearable.",3,0,13,General Petite,Intimate,Blouses
+1076,28,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,6,General Petite,Intimate,Knits
+1077,56,Solid basic,"Simple design, good quality for a basic top, fits as expected.",4,1,9,General Petite,Dresses,Blouses
+1078,33,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,13,Intimates,Bottoms,Pants
+1079,48,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,6,Intimates,Intimate,Knits
+1080,38,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,10,General,Tops,Blouses
+1081,32,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,4,General,Dresses,Knits
+1082,59,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,2,General Petite,Intimate,Sweaters
+1083,65,Terrible,"Arrived with a stain and the stitching was already coming apart, very disappointing.",1,0,12,General Petite,Intimate,Knits
+1084,61,Cute but small,"Really cute design but runs very small, had to return it for a bigger size.",3,0,0,General,Intimate,Knits
+1085,64,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,14,General,Tops,Dresses
+1086,28,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,14,Intimates,Bottoms,Pants
+1087,52,Solid basic,"Simple design, good quality for a basic top, fits as expected.",4,1,13,Intimates,Intimate,Knits
+1088,48,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,8,General,Bottoms,Sweaters
+1089,60,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,7,General Petite,Intimate,Dresses
+1090,35,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,8,General Petite,Bottoms,Sweaters
+1091,28,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,4,General,Intimate,Knits
+1092,24,Terrible,"Arrived with a stain and the stitching was already coming apart, very disappointing.",1,0,13,General Petite,Bottoms,Sweaters
+1093,46,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,1,General,Intimate,Pants
+1094,64,Returned it,"Way too small and the material was scratchy against my skin, not comfortable at all.",2,0,0,Intimates,Intimate,Pants
+1095,42,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,9,General Petite,Intimate,Sweaters
+1096,58,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,7,General Petite,Tops,Blouses
+1097,51,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,0,General Petite,Bottoms,Pants
+1098,49,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,4,Intimates,Dresses,Pants
+1099,56,Returned it,"Way too small and the material was scratchy against my skin, not comfortable at all.",2,0,0,General,Intimate,Knits
+1100,31,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,1,General Petite,Intimate,Blouses
+1101,49,Terrible,"Arrived with a stain and the stitching was already coming apart, very disappointing.",1,0,10,General Petite,Intimate,Blouses
+1102,36,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,2,General Petite,Dresses,Sweaters
+1103,42,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,7,Intimates,Dresses,Dresses
+1104,35,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,6,General,Tops,Knits
+1105,50,Cute but small,"Really cute design but runs very small, had to return it for a bigger size.",3,0,3,Intimates,Tops,Pants
+1106,43,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,5,Intimates,Dresses,Knits
+1107,26,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,0,General Petite,Intimate,Pants
+1108,24,Terrible,"Arrived with a stain and the stitching was already coming apart, very disappointing.",1,0,7,General,Bottoms,Sweaters
+1109,56,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,1,General Petite,Intimate,Blouses
+1110,52,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,10,General,Intimate,Pants
+1111,47,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,11,Intimates,Intimate,Knits
+1112,31,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,8,Intimates,Intimate,Pants
+1113,57,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,8,General Petite,Tops,Dresses
+1114,48,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,7,General Petite,Intimate,Blouses
+1115,51,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,10,General,Intimate,Knits
+1116,36,Comfortable,"Soft material, fits true to size, would recommend for everyday wear.",4,1,10,General Petite,Bottoms,Sweaters
+1117,53,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,6,General,Tops,Pants
+1118,55,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,7,Intimates,Intimate,Pants
+1119,21,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,2,General Petite,Tops,Pants
+1120,39,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,11,General Petite,Bottoms,Pants
+1121,41,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,11,Intimates,Intimate,Blouses
+1122,36,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,7,General,Tops,Blouses
+1123,54,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,5,General,Tops,Pants
+1124,57,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,9,General,Tops,Blouses
+1125,43,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,5,General Petite,Dresses,Sweaters
+1126,37,Cute but small,"Really cute design but runs very small, had to return it for a bigger size.",3,0,1,General,Bottoms,Knits
+1127,26,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,0,Intimates,Bottoms,Pants
+1128,48,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,10,General,Dresses,Blouses
+1129,27,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,2,General Petite,Intimate,Dresses
+1130,60,Returned it,"Way too small and the material was scratchy against my skin, not comfortable at all.",2,0,1,General,Tops,Sweaters
+1131,25,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,7,General,Intimate,Sweaters
+1132,59,Solid basic,"Simple design, good quality for a basic top, fits as expected.",4,1,7,Intimates,Intimate,Pants
+1133,39,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,13,General Petite,Dresses,Sweaters
+1134,33,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,6,General Petite,Dresses,Knits
+1135,31,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,2,General,Dresses,Pants
+1136,64,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,15,General Petite,Dresses,Knits
+1137,65,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,9,Intimates,Intimate,Dresses
+1138,36,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,6,General Petite,Dresses,Sweaters
+1139,61,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,4,General Petite,Tops,Dresses
+1140,30,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,9,Intimates,Bottoms,Pants
+1141,49,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,9,Intimates,Intimate,Blouses
+1142,54,Just okay,"It's fine, the color is slightly different from the photos but wearable.",3,0,15,General Petite,Dresses,Sweaters
+1143,47,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,10,Intimates,Bottoms,Dresses
+1144,34,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,0,Intimates,Bottoms,Sweaters
+1145,31,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,15,Intimates,Intimate,Blouses
+1146,57,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,13,Intimates,Intimate,Dresses
+1147,42,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,13,General Petite,Bottoms,Dresses
+1148,41,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,13,Intimates,Intimate,Blouses
+1149,55,Meh,"Nothing special, average quality, probably won't order again but it's wearable.",3,0,1,General Petite,Dresses,Blouses
+1150,40,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,3,General Petite,Dresses,Sweaters
+1151,46,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,1,General,Bottoms,Sweaters
+1152,60,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,14,General,Tops,Blouses
+1153,28,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,9,General Petite,Intimate,Dresses
+1154,60,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,7,Intimates,Tops,Blouses
+1155,20,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,13,General,Tops,Dresses
+1156,27,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,4,General Petite,Bottoms,Sweaters
+1157,46,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,15,General Petite,Tops,Pants
+1158,29,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,12,General,Tops,Dresses
+1159,46,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,10,Intimates,Bottoms,Dresses
+1160,39,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,15,General,Intimate,Sweaters
+1161,42,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,10,Intimates,Intimate,Pants
+1162,32,Waste of money,"Fabric is see through and the seams were crooked, returning this immediately.",1,0,7,Intimates,Intimate,Knits
+1163,22,Beautiful piece,"The craftsmanship is beautiful, fits like a glove, worth every penny.",5,1,10,Intimates,Intimate,Pants
+1164,62,Meh,"Nothing special, average quality, probably won't order again but it's wearable.",3,0,4,General Petite,Dresses,Knits
+1165,57,Just okay,"It's fine, the color is slightly different from the photos but wearable.",3,0,10,General,Intimate,Dresses
+1166,49,Just okay,"It's fine, the color is slightly different from the photos but wearable.",3,0,0,Intimates,Tops,Pants
+1167,24,Cute but small,"Really cute design but runs very small, had to return it for a bigger size.",3,0,15,General Petite,Bottoms,Sweaters
+1168,61,Meh,"Nothing special, average quality, probably won't order again but it's wearable.",3,0,2,General Petite,Intimate,Blouses
+1169,54,Nice for summer,"Light and breathable, great for warm weather, true to size and comfortable.",4,1,1,Intimates,Dresses,Knits
+1170,34,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,2,General Petite,Dresses,Dresses
+1171,30,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,9,General,Dresses,Blouses
+1172,38,Great quality,"Really happy with this purchase, the material is soft and the color is exactly as pictured.",5,1,11,General Petite,Intimate,Knits
+1173,53,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,13,Intimates,Tops,Knits
+1174,25,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,12,Intimates,Tops,Pants
+1175,29,Returned it,"Way too small and the material was scratchy against my skin, not comfortable at all.",2,0,7,General Petite,Bottoms,Pants
+1176,62,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,0,General Petite,Bottoms,Sweaters
+1177,24,Perfect fit,"Exactly what I was looking for, true to size and the quality is excellent for the price.",5,1,14,General Petite,Bottoms,Pants
+1178,49,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,9,General,Intimate,Pants
+1179,35,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,12,Intimates,Bottoms,Sweaters
+1180,64,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,9,General,Intimate,Blouses
+1181,56,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,1,Intimates,Intimate,Blouses
+1182,58,Good for the price,"Decent top, not the best quality but acceptable for the price point.",3,0,11,General,Tops,Sweaters
+1183,63,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,4,Intimates,Dresses,Dresses
+1184,48,Runs small,"Cute pattern but sizing is way off, ordered a size up and it still felt tight.",2,0,1,Intimates,Bottoms,Knits
+1185,38,Not bad,"It's okay, does the job but nothing special, wish the fit was a little better.",3,0,10,Intimates,Intimate,Knits
+1186,28,Terrible,"Arrived with a stain and the stitching was already coming apart, very disappointing.",1,0,11,Intimates,Bottoms,Knits
+1187,50,Absolutely stunning,"Gorgeous color and the fit is flattering, I've gotten so many compliments wearing this.",5,1,9,Intimates,Bottoms,Dresses
+1188,24,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,4,General,Intimate,Sweaters
+1189,25,Comfortable,"Soft material, fits true to size, would recommend for everyday wear.",4,1,12,General,Bottoms,Sweaters
+1190,49,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,11,Intimates,Bottoms,Sweaters
+1191,60,Meh,"Nothing special, average quality, probably won't order again but it's wearable.",3,0,11,General,Tops,Pants
+1192,59,Love this!,"This dress fits perfectly and the fabric feels amazing, true to size and so comfortable.",5,1,10,Intimates,Tops,Dresses
+1193,64,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,9,Intimates,Intimate,Dresses
+1194,22,Cute but small,"Really cute design but runs very small, had to return it for a bigger size.",3,0,1,General Petite,Intimate,Dresses
+1195,35,Disappointed,"The fabric felt cheap and it started pilling after one wash, would not buy again.",1,0,4,General Petite,Intimate,Blouses
+1196,46,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,4,General Petite,Dresses,Pants
+1197,46,Solid basic,"Simple design, good quality for a basic top, fits as expected.",4,1,8,General,Bottoms,Knits
+1198,48,Poor quality,"Fell apart after two wears, the buttons came loose and thread was unraveling.",1,0,7,General Petite,Dresses,Blouses
+1199,61,Highly recommend,"Best purchase this year, perfect fit and the quality exceeded my expectations.",5,1,11,General,Intimate,Blouses
